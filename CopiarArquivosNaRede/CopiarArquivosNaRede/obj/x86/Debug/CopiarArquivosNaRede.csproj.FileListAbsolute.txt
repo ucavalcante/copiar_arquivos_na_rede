@@ -1,0 +1,19 @@
+C:\Users\ulisses\AppData\Local\Temporary Projects\CopiarArquivosNaRede\bin\Debug\CopiarArquivosNaRede.exe
+C:\Users\ulisses\AppData\Local\Temporary Projects\CopiarArquivosNaRede\bin\Debug\CopiarArquivosNaRede.pdb
+C:\Users\ulisses\AppData\Local\Temporary Projects\CopiarArquivosNaRede\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ulisses\AppData\Local\Temporary Projects\CopiarArquivosNaRede\obj\x86\Debug\CopiarArquivosNaRede.Form1.resources
+C:\Users\ulisses\AppData\Local\Temporary Projects\CopiarArquivosNaRede\obj\x86\Debug\CopiarArquivosNaRede.Properties.Resources.resources
+C:\Users\ulisses\AppData\Local\Temporary Projects\CopiarArquivosNaRede\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ulisses\AppData\Local\Temporary Projects\CopiarArquivosNaRede\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ulisses\AppData\Local\Temporary Projects\CopiarArquivosNaRede\obj\x86\Debug\CopiarArquivosNaRede.exe
+C:\Users\ulisses\AppData\Local\Temporary Projects\CopiarArquivosNaRede\obj\x86\Debug\CopiarArquivosNaRede.pdb
+C:\Users\ulisses\documents\visual studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Debug\CopiarArquivosNaRede.exe
+C:\Users\ulisses\documents\visual studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Debug\CopiarArquivosNaRede.pdb
+C:\Users\ulisses\documents\visual studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\bin\Debug\CopiarArquivosNaRede.exe
+C:\Users\ulisses\documents\visual studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\bin\Debug\CopiarArquivosNaRede.pdb
+C:\Users\ulisses\documents\visual studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ulisses\documents\visual studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Debug\CopiarArquivosNaRede.Form1.resources
+C:\Users\ulisses\documents\visual studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Debug\CopiarArquivosNaRede.Properties.Resources.resources
+C:\Users\ulisses\documents\visual studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ulisses\documents\visual studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Debug\CopiarArquivosNaRede.Form2.resources

@@ -1,0 +1,10 @@
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Release\CopiarArquivosNaRede.Form1.resources
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Release\CopiarArquivosNaRede.Properties.Resources.resources
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\bin\Release\CopiarArquivosNaRede.exe
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\bin\Release\CopiarArquivosNaRede.pdb
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Release\CopiarArquivosNaRede.Form2.resources
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Release\CopiarArquivosNaRede.exe
+C:\Users\Ulisses\Documents\Visual Studio 2010\Projects\CopiarArquivosNaRede\CopiarArquivosNaRede\obj\x86\Release\CopiarArquivosNaRede.pdb

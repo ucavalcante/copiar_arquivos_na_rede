@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CopiarArquivosNaRede xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Maquina>
+		<CPU>Acteon</CPU>
+		<Setor>Sala</Setor>
+	</Maquina>
+	<Maquina>
+		<CPU>Mega</CPU>
+		<Setor>Sala</Setor>
+	</Maquina>
+	<Maquina>
+		<CPU>Qbex</CPU>
+		<Setor>Quarto</Setor>
+	</Maquina>
+	<Maquina>
+		<CPU>c01321</CPU>
+		<Setor>Ti-Infra</Setor>
+	</Maquina>
+	<Maquina>
+		<CPU>c01322</CPU>
+		<Setor>Ti-Infra</Setor>
+	</Maquina>
+</CopiarArquivosNaRede>
