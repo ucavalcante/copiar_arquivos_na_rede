@@ -44,9 +44,11 @@
             this.btAdicionarMaquinas = new System.Windows.Forms.Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.lbTempo = new System.Windows.Forms.Label();
+            this.lbAtual = new System.Windows.Forms.Label();
+            this.lbTotal = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -81,7 +83,7 @@
             // btSelecionarPasta
             // 
             this.btSelecionarPasta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btSelecionarPasta.Location = new System.Drawing.Point(128, 17);
+            this.btSelecionarPasta.Location = new System.Drawing.Point(128, 19);
             this.btSelecionarPasta.Name = "btSelecionarPasta";
             this.btSelecionarPasta.Size = new System.Drawing.Size(75, 23);
             this.btSelecionarPasta.TabIndex = 5;
@@ -104,7 +106,7 @@
             // 
             this.txtBoxPastaDeOrigem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBoxPastaDeOrigem.Location = new System.Drawing.Point(6, 19);
+            this.txtBoxPastaDeOrigem.Location = new System.Drawing.Point(6, 22);
             this.txtBoxPastaDeOrigem.Name = "txtBoxPastaDeOrigem";
             this.txtBoxPastaDeOrigem.Size = new System.Drawing.Size(116, 20);
             this.txtBoxPastaDeOrigem.TabIndex = 0;
@@ -220,17 +222,6 @@
             this.checkBox1.Text = "Sobrescrever Arquivos";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
-            // 
-            this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(174, 283);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(122, 17);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "Administrador Global";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
             // linkLabel1
             // 
             this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -246,19 +237,48 @@
             // progressBar1
             // 
             this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.progressBar1.Location = new System.Drawing.Point(322, 283);
+            this.progressBar1.Location = new System.Drawing.Point(390, 283);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(140, 23);
+            this.progressBar1.Size = new System.Drawing.Size(72, 23);
             this.progressBar1.TabIndex = 5;
+            // 
+            // lbTempo
+            // 
+            this.lbTempo.AutoSize = true;
+            this.lbTempo.Location = new System.Drawing.Point(151, 284);
+            this.lbTempo.Name = "lbTempo";
+            this.lbTempo.Size = new System.Drawing.Size(40, 13);
+            this.lbTempo.TabIndex = 6;
+            this.lbTempo.Text = "Tempo";
+            // 
+            // lbAtual
+            // 
+            this.lbAtual.AutoSize = true;
+            this.lbAtual.Location = new System.Drawing.Point(231, 284);
+            this.lbAtual.Name = "lbAtual";
+            this.lbAtual.Size = new System.Drawing.Size(31, 13);
+            this.lbAtual.TabIndex = 7;
+            this.lbAtual.Text = "Atual";
+            // 
+            // lbTotal
+            // 
+            this.lbTotal.AutoSize = true;
+            this.lbTotal.Location = new System.Drawing.Point(319, 284);
+            this.lbTotal.Name = "lbTotal";
+            this.lbTotal.Size = new System.Drawing.Size(31, 13);
+            this.lbTotal.TabIndex = 8;
+            this.lbTotal.Text = "Total";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(624, 312);
+            this.Controls.Add(this.lbTotal);
+            this.Controls.Add(this.lbAtual);
+            this.Controls.Add(this.lbTempo);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -293,9 +313,11 @@
         private System.Windows.Forms.CheckedListBox ckLstCPU;
         private System.Windows.Forms.CheckedListBox ckLstSetores;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label lbTempo;
+        private System.Windows.Forms.Label lbAtual;
+        private System.Windows.Forms.Label lbTotal;
     }
 }
 

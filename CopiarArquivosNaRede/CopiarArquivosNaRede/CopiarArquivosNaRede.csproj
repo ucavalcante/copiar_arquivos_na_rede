@@ -61,6 +61,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sistema\Arquivos.cs" />
+    <Compile Include="Sistema\GerirLogs.cs" />
     <Compile Include="Sistema\GerirTabela.cs" />
     <Compile Include="Sistema\GerirXML.cs" />
     <EmbeddedResource Include="Form1.resx">

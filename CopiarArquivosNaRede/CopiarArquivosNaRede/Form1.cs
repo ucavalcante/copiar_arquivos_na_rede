@@ -35,6 +35,23 @@ namespace CopiarArquivosNaRede
                 ctl.Items.AddRange(Array);
             }
         }
+        //definir delegate que permite alteração nos controles dos forms para mutithread
+        delegate void DefinirAtualizacaoDeLabel(string Texto, Control ctl);
+        //Metodo que altera textbox os status dos forms multithread
+        private void DefinirAtualizacao(string Texto, Control ctl)
+        {
+            if (ctl.InvokeRequired)
+            {
+                DefinirAtualizacaoDeLabel d = new DefinirAtualizacaoDeLabel(DefinirAtualizacao);
+                this.Invoke(d, new object[] { Texto, ctl });
+            }
+            else
+            {
+                ctl.Text = Texto;
+            }
+
+        }
+
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -152,8 +169,32 @@ namespace CopiarArquivosNaRede
 
         }
 
+        Contador Ctt = new Contador();
+        private void AtualizarContadores()
+        {
+            Thread newThread = new Thread(AtualizarContadoresStart);
+            newThread.Start();
+        }
+        private void AtualizarContadoresStart()
+        {
+            while (Ctt.Terminado)
+            {
+                Thread.Sleep(50);
+                DefinirAtualizacao(Convert.ToString(Ctt.contadorAtual),lbAtual);
+                DefinirAtualizacao(Convert.ToString(Ctt.contadorTotal),lbTotal);
+            }
+            
+        }
+
+
         private void btCopiar_Click(object sender, EventArgs e)
         {
+
+            AtualizarContadores();
+            progressBar1.Value = 0;
+
+            MoverProgressBar();
+
             Arquivos obj = new Arquivos();
 
             string[] _arquivos = new string[listBoxArquivos.Items.Count];
@@ -174,6 +215,36 @@ namespace CopiarArquivosNaRede
             }
 
             obj.RealizarCopias(_arquivos,_maquinas,_sobrescrever);
+
+        }
+
+        private void MoverProgressBar()
+        {
+            int contar = 1;
+            //
+            // Mover a progress bar através da alteração do VALUE
+            //
+            progressBar1.Value = Ctt.contadorAtual;     // Esse é o valor da progress bar ela vai de 0 a Maximum (padrão 100)
+            progressBar1.Maximum = Ctt.contadorTotal; // Esse é o valor Maximo da progress bar, então quando value for = a 1000 ele vai ter carregado 100% (Por parão o maximum = 100)
+            while (contar <= Ctt.contadorTotal)
+            {
+                progressBar1.Value = contar;
+                contar++;
+            }
+            //
+            // Mover a progress bar através do metodo PerformStep
+            //
+            progressBar1.Maximum = Ctt.contadorTotal;
+            progressBar1.Step = 1;      // Esse é o valor que a progress bar vai subir quando você char a methodo PerformStep então ela vai ser incrementada esse valor até atingir o valor Maximum
+            progressBar1.Value = Ctt.contadorAtual;
+            contar = 1;
+            while (contar <= Ctt.contadorTotal)
+            {
+                progressBar1.PerformStep();
+                contar++;
+            }
+            //MessageBox.Show("A progress bar chegou ao seu fim.");
+            //progressBar1.Value = 0; //Zera a progress bar
         }
 
 

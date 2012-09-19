@@ -21,6 +21,10 @@ namespace CopiarArquivosNaRede
             //Metodo para a ser executado antes de encerrar a Aplicação.
             GerirXML obj = new GerirXML();
             obj.LimparEntradasInvalidas();
+
+            GerirLogs logs = new GerirLogs();
+            logs.CriarXML();
+
         }
     }
 }
